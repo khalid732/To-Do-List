@@ -1,0 +1,145 @@
+body {
+     background-color: #243642;
+     margin: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+     height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#input-field-container {
+    width: 100%;
+    height: 30%;
+    background-color: #629584;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-field-container>span {
+    width: 100%;
+    height: 20%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#check-btn {
+    width: 52px;
+    height: 100%;
+    border-radius: 50%;
+    border: 0;
+    margin-left: 12px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#check-btn:hover {
+    background-color: #629584;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+#check {
+    width: 20px;
+    height: 20px;
+}
+
+#recycle {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 32px;
+    color: #243642;
+    margin: 0;
+}
+
+#input-field {
+    width: 40%;
+    height: 100%;
+    border: 0;
+    border-radius: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: #243642;
+    background-color: #E2F1E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#list-container {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list {
+    width: 90%;
+    height: 90%;
+    border-radius: 32px;
+    overflow: hidden;
+    background-color: #E2F1E7;
+    overflow-y: scroll;
+}
+
+.list-item {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 24px;
+    color: #243642;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.dots {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color: #243642;
+}
+
+.completed {
+    background-color: #D4EDDA; /* Optional: Light green background for completed tasks */
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color: gray; /* Optional: Change text color for completed tasks */
+}
+
+.dots.solid {
+    background-color: #243642; /* Change dot color when task is completed */
+}
